@@ -1,125 +1,129 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <title>Bootstrap Example</title>
+  <title>Ostendo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
   <!-- Raleway Font on Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
-  <style>
-  body {
-      position: relative; 
-  }
-  h1 {
-      font-family: "Raleway";
-      font-weight: 700;
-      font-size: 4em;
-      color: #818181;
-      text-decoration: underline;
-      margin-bottom: 2em;
-  }
-  h3 {
-      
-      font-family: "Raleway";
-      font-weight: 700;
-      font-size: 2em;
-      color: #818181;
-      text-decoration: underline;
-  }
-
-  #section1 {padding:75px 0px 50px 0px;min-height:500px;color: #000; background-color: #d7d7d7;}
-  #section2 {padding:50px 0px 50px 0px;min-height:500px;color: #000; background-color: #7d7d7d;}
-  #section3 {padding:50px 0px 50px 0px;min-height:500px;color: #000; background-color: #d7d7d7;}
-  #section4 {padding:50px 0px 50px 0px;min-height:500px;color: #000; background-color: #7d7d7d;}
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/ostendo.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+  <div class="container">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#section1">WebSiteName</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+    
+  </button>
+    <a class="navbar-brand" href="#">ostendo</a>
     </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section2">Projet</a></li>
-          <li><a href="#section3">Equipe</a></li>
-          <li><a href="#section4">Contact</a></li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"></li>
+        <li><a href="#projet">projet</a></li>
+        <li><a href="#equipe">équipe</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
     </div>
   </div>
-</nav>    
+</nav>
 
-<div>
-  <div id="section1" class="container-fluid">
-    <div class="container">
-      <h1>Ostendo</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis neque iaculis leo tincidunt placerat. Suspendisse hendrerit, elit eget euismod rhoncus, tellus ante blandit leo, in sagittis mauris arcu ac ipsum. Aliquam in magna ex. Duis malesuada ante at posuere dictum. Duis nec pulvinar est. Suspendisse felis nibh, placerat quis pulvinar eu, ultricies non quam. Suspendisse porta mauris id blandit ultricies. Fusce quis sollicitudin velit.</p>
+<div id="logoBlock" style="color: #fff;background-color: #000;">
+  <div class="container">
+    <div class="center-block">
+      <img id="ostendoLogo" src="img/logo_blanc.svg" style="display:block; max-height: 700px; margin:auto; margin-top: 150px">
     </div>
-  </div>
-  <div id="section2" class="container-fluid">
-    <div class="container">
-      <h1 class="text-center">Projet</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-  </div>
-  <div id="section3" class="container-fluid">
-    <div class="raw container">
-      <h1 class="text-center">Equipe</h1>
-      <div class="col-md-3">
-        <img class="img-circle center-block" src="http://placehold.it/150x150"/>
-        <div class="description">
-          <h3 class="big-text text-center">Marine Depery</h3>
-          <br>
-          <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis neque iaculis leo tincidunt placerat. Suspendisse hendrerit, elit eget euismod rhoncus, tellus ante blandit leo, in sagittis mauris arcu ac ipsum. Aliquam in magna ex. Duis malesuada ante at posuere dictum. Duis nec pulvinar est. Suspendisse felis nibh, placerat quis pulvinar eu, ultricies non quam. Suspendisse porta mauris id blandit ultricies. Fusce quis sollicitudin velit.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <img class="img-circle center-block" src="http://placehold.it/150x150"/>
-        <div class="description">
-          <h3 class="big-text text-center">Marc Fagot</h3>
-          <br>
-          <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis neque iaculis leo tincidunt placerat. Suspendisse hendrerit, elit eget euismod rhoncus, tellus ante blandit leo, in sagittis mauris arcu ac ipsum. Aliquam in magna ex. Duis malesuada ante at posuere dictum. Duis nec pulvinar est. Suspendisse felis nibh, placerat quis pulvinar eu, ultricies non quam. Suspendisse porta mauris id blandit ultricies. Fusce quis sollicitudin velit.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <img class="img-circle center-block" src="http://placehold.it/150x150"/>
-        <div class="description">
-          <h3 class="big-text text-center">Louise Geday-Volait</h3>
-          <br>
-          <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis neque iaculis leo tincidunt placerat. Suspendisse hendrerit, elit eget euismod rhoncus, tellus ante blandit leo, in sagittis mauris arcu ac ipsum. Aliquam in magna ex. Duis malesuada ante at posuere dictum. Duis nec pulvinar est. Suspendisse felis nibh, placerat quis pulvinar eu, ultricies non quam. Suspendisse porta mauris id blandit ultricies. Fusce quis sollicitudin velit.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <img class="img-circle center-block" src="http://placehold.it/150x150"/>
-        <div class="description">
-          <h3 class="big-text text-center">Simon Hill</h3>
-          <br>
-          <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis neque iaculis leo tincidunt placerat. Suspendisse hendrerit, elit eget euismod rhoncus, tellus ante blandit leo, in sagittis mauris arcu ac ipsum. Aliquam in magna ex. Duis malesuada ante at posuere dictum. Duis nec pulvinar est. Suspendisse felis nibh, placerat quis pulvinar eu, ultricies non quam. Suspendisse porta mauris id blandit ultricies. Fusce quis sollicitudin velit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="section4" class="container-fluid">
-    <h1 class="text-center">Contact</h1>
-    <p class="text-center">contact@ostendo.io</p>
   </div>
 </div>
+
+<div class="bgimg-1">
+</div>
+
+<div id="projet" style="color: #fff;background-color: #000;">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2" style="padding: 200px 0px 200px 0px;">
+      <h2>projet</h2>
+      <p><b>ostendo</b> est né de la conviction que chaque visite d’un lieu d’exposition est unique et personnelle. Il propose une expérience qui bouleverse à la fois la visite et « l’après-visite » et questionne la forme ainsi que le contenu des médiations habituellement proposées au visiteur.</p>
+      <p>L’<b>expérience ostendo</b> se déroule en deux temps et à travers deux objets : une application accompagnant la visite, et un catalogue sur-mesure retraçant cette dernière. L’application donne le pouvoir au visiteur de capturer les oeuvres qu’il aime, qui l’intéressent ou qui l’intriguent, et d’explorer un contenu inédit pour chacune d’elles : les croquis, images, textes ou références qui constituent le processus de création de l’artiste. La sortie de l’exposition est marquée par l’édition du catalogue sur-mesure suivant l’option choisie par le visiteur lui-même : la première consistant à restituer le parcours de ce qu’il a capturé, la seconde à lui proposer les oeuvres qu’il n’a au contraire pas capturé, et à côté desquelles il est peut-être passé ?</p>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-2">
+</div>
+
+<div id="equipe" class="container-fluid" style="color: #fff;background-color: #000;">
+    <div class="raw container"  style="padding: 200px 0px 200px 0px;">
+      <h2>équipe</h2>
+      <div class="col-md-3">
+        <img class="img-circle center-block" src="img/marine.jpg"/>
+        <div class="description">
+          <h3>Marine Depery</h3>
+          <p class="bio">Étudiante en 5e année a l’EnsAD en design graphique et multimédia. Particulièrement attirée par les aspects structuré et rigoureux du design, ainsi que par son efficacité. Amatrice de techniques d’impressions manuelles telles que la gravure, la linogravure ou encore la typographie au plomb. Passionnée par les trames en tout genre et par l’abstraction poétique des signes mathématiques.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img class="img-circle center-block" src="img/marc.jpg"/>
+        <div class="description">
+          <h3>Marc Fagot</h3>
+          <p class="bio">Ingénieur depuis 2009 spécialisé dans la maîtrise des processus et l’étude des mesures industrielles complexes. Étudiant de l’école 42 depuis 2014, il s'est spécialisé dans la gestion des systèmes d’information, la sécurité et l’analyse des données. Grand amateur des arts graphiques, urbains et numériques.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img class="img-circle center-block" src="img/louise.jpg"/>
+        <div class="description">
+          <h3>Louise Geday-Volait</h3>
+          <p class="bio">Étudiante en design graphique et multimédia à l’EnsAD aux intérêts transversaux, allant de la vidéo à la peinture et de l’espace au numérique. Parallèlement à son cursus, elle a étudié l’arabe et l’audiovisuel, et travaille comme graphiste auteur et régisseuse vidéo et lumière. Elle est passionnée par les aspects techniques du design et aime imaginer des systèmes qu’elle schématise et cartographie dans ses carnets. Cycliste chevronnée.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img class="img-circle center-block" src="img/simon.jpg"/>
+        <div class="description">
+          <h3>Simon Hill</h3>
+          <p class="bio">Ingénieur du son depuis 2006 dans les domaines de l’événementiel (SAS Magnum), de la télévision (France 3) et de la production musicale. Étudiant de l’école 42 depuis 2015, spécialisé dans l’électronique embarquée, la computer vision et l’UX. Passionné d’innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="bgimg-3">
+</div>
+
+<div id="contact" style="color: #fff;background-color: #000;">
+  <div class="raw container">
+    <div class="text-center" style="padding: 200px 0px 200px 0px;">
+      <h2>
+        <a style="color:#fff" href="mailto:contact@ostendo.io?Subject=Bonjour" target="_top">contact@ostendo.io</a>
+      </h2>
+      <a style="color:#000" href="https://www.facebook.com/ostendo.io">
+        <img style="height: 50px;" src="img/icon_facebook.svg"/>
+      </a>
+      <a style="color:#000" href="https://www.instagram.com/ostendo.io">
+        <img style="height: 50px; margin-left: 45px; margin-right: 45px;" src="img/icon_insta.svg"/>
+      </a>
+      <a style="color:#000" href="https://twitter.com/ostendo_io">
+        <img style="height: 50px;" src="img/icon_twitter.svg"/>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-4">
+</div>
+
+<script src="js/main.js"></script>
+
 
 </body>
 </html>
