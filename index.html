@@ -4,7 +4,7 @@
 <head>
   <title>Ostendo</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,10 +19,9 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
-  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
-    
-  </button>
-    <a class="navbar-brand" href="#">ostendo</a>
+        <span class="glyphicon glyphicon-chevron-left" style="color:white;"></span>
+      </button>
+      <a class="navbar-brand" href="#">ostendo</a>
     </div>
     <div class="collapse navbar-collapse" id="navMain">
       <ul class="nav navbar-nav pull-right">
@@ -35,10 +34,12 @@
   </div>
 </nav>
 
-<div id="logoBlock" style="color: #fff;background-color: #000;">
+<div id="logoBlock" style="color: #fff; background-color: #000;">
   <div class="container">
-    <div class="center-block">
-      <img id="ostendoLogo" src="img/logo_blanc.svg" style="display:block; max-height: 700px; margin:auto; margin-top: 60px">
+    <div class="center-block text-center">
+      <p><img id="ostendoLogo" src="img/logo_blanc.svg" style="display:block; max-height: 700px; margin:auto; margin-top: 60px"></p>
+      <p id="arrow" style="margin-top: 20vh;">apprenez en plus</p>
+      <p><img src="img/bouton_fleche.svg" style="height: 50px; transform: rotate(180deg)"></p>
     </div>
   </div>
 </div>
@@ -59,7 +60,7 @@
 <div class="bgimg-2">
 </div>
 
-<div id="equipe" class="container-fluid" style="color: #fff;background-color: #000;">
+<div id="equipe" class="container-fluid" style="color: #fff; background-color: #000;">
     <div class="raw container"  style="padding: 200px 0px 200px 0px;">
       <h2>équipe</h2>
       <div class="col-md-3">
@@ -100,21 +101,38 @@
 <div class="bgimg-3">
 </div>
 
-<div id="contact" style="color: #fff;background-color: #000;">
+<div id="contact" style="color: #fff; background-color: #000;">
   <div class="raw container">
-    <div class="text-center" style="padding: 200px 0px 200px 0px;">
+    <div class="text-center" style="padding: 250px 0px 0px 0px;">
       <h2>
         <a style="color:#fff" href="mailto:contact@ostendo.io?Subject=Bonjour" target="_top">contact@ostendo.io</a>
       </h2>
-      <a style="color:#000" href="https://www.facebook.com/ostendo.io">
-        <img style="height: 50px;" src="img/icon_facebook.svg"/>
-      </a>
-      <a style="color:#000" href="https://www.instagram.com/ostendo.io">
-        <img style="height: 50px; margin-left: 45px; margin-right: 45px;" src="img/icon_insta.svg"/>
-      </a>
-      <a style="color:#000" href="https://twitter.com/ostendo_io">
-        <img style="height: 50px;" src="img/icon_twitter.svg"/>
-      </a>
+      <p>
+        <a style="color:#000" href="https://www.facebook.com/ostendo.io">
+          <img class="logo-social" src="img/icon_facebook.svg"/>
+        </a>
+        <a style="color:#000" href="https://www.instagram.com/ostendo.io">
+          <img class="logo-social" src="img/icon_insta.svg"/>
+        </a>
+        <a style="color:#000" href="https://twitter.com/ostendo_io">
+          <img class="logo-social"" src="img/icon_twitter.svg"/>
+        </a>
+      </p>
+      <h2 style="margin-top: 100px; margin-bottom: 50px;">nos partenaires</h2>
+      <p>
+        <a style="color:#000" href="http://www.ensad.fr/">
+          <img class="logo-partners" src="img/logo_ensad.svg"/>
+        </a>
+        <a style="color:#000" href="https://matrice.io/">
+          <img class="logo-partners" src="img/logo_matrice.svg"/>
+        </a>
+        <a style="color:#000" href="http://www.culturecommunication.gouv.fr/">
+          <img class="logo-partners" src="img/logo_ministere_culture.png"/>
+        </a>
+        <a style="color:#000" href="http://www.42.fr/">
+          <img class="logo-partners" src="img/logo_42.svg"/>
+        </a>
+      </p>
     </div>
   </div>
 </div>

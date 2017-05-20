@@ -56,6 +56,19 @@
     font-size: 0.7em;
   }
 
+  .logo-social{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .logo-partners {
+    max-width: 150px;
+    max-height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   @media (max-width: 992px) {
     .opaque-navbar {
       background-color: black;
@@ -67,7 +80,7 @@
   h2 {
     letter-spacing: 5px;
     font-family: "Raleway";
-    font-size: 2em;
+    font-size: 3.0vh;
     font-weight: 900;
     color: #fff;
     margin-bottom: 1.5em;
@@ -76,15 +89,15 @@
   h3 {
   letter-spacing: 2px;
   font-family: "Raleway";
-  font-size: 1em;
+  font-size: 1.5vh;
   font-weight: 900;
   color: #fff;
   margin-bottom: 1.5em;
   }
 
   /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
+ /* @media only screen and (max-device-width: 1024px) {
       .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
           background-attachment: scroll;
       }
-  }
+  }*/

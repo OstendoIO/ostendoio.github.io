@@ -7,5 +7,7 @@ $(window).scroll(function() {
     }
 });
 
-document.getElementById("ostendoLogo").style.height = ($( window ).height() - 120) + 'px';
+document.getElementById("ostendoLogo").style.height = ($( window ).height() - 180) + 'px';
+console.log(document.getElementById("arrow").style.marginTop = document.getElementById("ostendoLogo").style.height.slice(0, -3) );
 document.getElementById("logoBlock").style.height = ($( window ).height()) + 'px';
+document.getElementById("contact").style.height = ($( window ).height()) + 'px';
