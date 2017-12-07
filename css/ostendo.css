@@ -1,11 +1,11 @@
   body, html {
     height: 100%;
     margin: 0;
-    font: 400 20px/1.8 "Raleway", sans-serif;
+    font: 400 20px/1.6 "Raleway", sans-serif;
     color: #000;
   }
 
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .percolaris-bgimg-1, .percolaris-bgimg-2, .percolaris-bgimg-3, .percolaris-bgimg-4, .percolaris-bgimg-5 {
     position: relative;
     /*opacity: 0.65;*/
     background-attachment: fixed;
@@ -15,23 +15,43 @@
     min-height: 100%;
   }
   .bgimg-1 {
-    background-image: url("../img/parallax_1.png");
+    background-image: url("../img/1.jpg");
   }
 
   .bgimg-2 {
-    background-image: url("../img/parallax_2.png");
+    background-image: url("../img/2.jpg");
   }
 
   .bgimg-3 {
-    background-image: url("../img/parallax_3.png");
+    background-image: url("../img/3.jpg");
   }
 
   .bgimg-4 {
-    background-image: url("../img/parallax_4.png");
+    background-image: url("../img/4.jpg");
   }
 
   .bgimg-5 {
-    background-image: url("../img/parallax_5.jpg");
+    background-image: url("../img/1.jpg");
+  }
+
+  .percolaris-bgimg-1 {
+    background-image: url("../img/OO_percolaris_sem_0.jpg");
+  }
+
+  .percolaris-bgimg-2 {
+    background-image: url("../img/OO_percolaris_sem_1.jpg");
+  }
+
+  .percolaris-bgimg-3 {
+    background-image: url("../img/OO_percolaris_sem_2.jpg");
+  }
+
+  .percolaris-bgimg-4 {
+    background-image: url("../img/OO_percolaris_sem_3.jpg");
+  }
+
+  .percolaris-bgimg-5 {
+    background-image: url("../img/OO_percolaris_sem_4.jpg");
   }
 
   .opaque-navbar {
@@ -54,6 +74,7 @@
   .bio {
     font-family: "Raleway";
     font-size: 0.7em;
+    line-height: 1.7em;
   }
 
   .logo-social{
@@ -91,11 +112,22 @@
   h3 {
   letter-spacing: 2px;
   font-family: "Raleway";
-  font-size: 1.5vh;
-  font-weight: 900;
+  font-size: 2.5vh;
+  font-weight: 700;
   color: #fff;
   margin-bottom: 1.5em;
   }
+
+.navbar-brand{
+  letter-spacing: 4px;
+    font-family: "Raleway";
+    font-size: 3vh;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+
 
 Turn off parallax scrolling for tablets and phones
   @media only screen and (max-device-width: 1024px) {
